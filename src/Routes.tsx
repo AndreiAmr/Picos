@@ -7,7 +7,12 @@ const Routes = () => {
     <BrowserRouter>
       <Switch>
         {onBoardingRoutes.map((route) => (
-          <Route path={route.path} exact={true} component={route.component} />
+          <Route
+            path={route.path}
+            exact={true}
+            component={route.component}
+            key={route.path}
+          />
         ))}
       </Switch>
     </BrowserRouter>
