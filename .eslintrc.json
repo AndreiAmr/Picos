@@ -26,6 +26,7 @@
     "react/self-closing-comp": "off",
     "object-curly-newline": "off",
     "import/no-extraneous-dependencies": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "react/require-default-props": "off"
   }
 }

@@ -16,15 +16,4 @@ const ButtonsArea = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-const CreateUserContent = styled.div`
-  background: #ffffff;
-  margin: 0 auto;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-export { Container, LogoArea, ButtonsArea, CreateUserContent };
+export { Container, LogoArea, ButtonsArea };

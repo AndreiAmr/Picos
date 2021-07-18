@@ -13,6 +13,7 @@ interface InputProps {
   onBlur: any;
   name: string;
   onError: any;
+  type?: string;
 }
 
 const Input = ({
@@ -22,6 +23,7 @@ const Input = ({
   onBlur,
   name,
   onError,
+  type,
 }: InputProps) => {
   return (
     <Container>
@@ -40,6 +42,7 @@ const Input = ({
         onBlur={onBlur}
         name={name}
         className={onError ? 'error-style' : ''}
+        type={type}
       />
     </Container>
   );
